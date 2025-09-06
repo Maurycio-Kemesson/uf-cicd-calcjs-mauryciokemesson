@@ -1,7 +1,7 @@
-const { add, subtract, multiply, divide, power } = require('./calculadora');
+const { add, subtract, multiply, divide, power } = require('../src/calculadora.js');
 
 describe('Funções Matemáticas Básicas', () => {
-  
+
   // Teste da função de adição
   test('Deve adicionar dois números corretamente', () => {
     expect(add(1, 2)).toBe(3);
